@@ -53,6 +53,7 @@
     box-shadow: 1px 2px 20px 0;
     color: #000000;
     margin: 20px;
+    border-radius: 10px;
 }
 
 #masha, #alex, #slava, #sofia{
@@ -62,6 +63,7 @@
     box-shadow: 1px 2px 20px 0;
     margin: 2px;
     color: #ffff1f;
+    border-radius: 10px;
 }
 .text{
     z-index: 2;
