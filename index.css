@@ -1,0 +1,84 @@
+#body_style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-height: 1080px;
+    margin: 0;
+    background: #292926;
+    /*overflow: auto;*/
+}
+
+#hat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 60%;
+    background: #292926;
+    width: 100%;
+    box-shadow: 0 2px 20px 0;
+    padding: 10px;
+    z-index: 2;
+}
+
+#name{
+    user-select: none;
+    font-style: oblique;
+    font-size: 2.5vw;
+    font-family: fantasy;
+    letter-spacing: 20px;
+    color: #ffff1f;
+    z-index: 1;
+    box-shadow: 1px 2px 20px 0;
+}
+
+#infromation-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*width: 100%;*/
+    height: calc(83vh - 10px);
+}
+
+#mate1, #mate2, #mate3, #mate4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 90%;
+    width: 25%;
+    z-index: 1;
+    box-shadow: 1px 2px 20px 0;
+    color: #000000;
+    margin: 20px;
+}
+
+#masha, #alex, #slava, #sofia{
+    height: 50%;
+    width: 90%;
+    z-index: 2;
+    box-shadow: 1px 2px 20px 0;
+    margin: 2px;
+    color: #ffff1f;
+}
+.text{
+    z-index: 2;
+    /* box-shadow: 1px 2px 20px 0; */
+    margin: 2px;
+    color: #ffff1f;
+    height: 10%;
+    width: 80%;
+    text-align: center;
+    text-shadow: 3px 4px 15px #ffeb00a6;
+    font-size: 1vw;
+}
+
+.role{
+    z-index: 2;
+    box-shadow: 1px 2px 20px 0;
+    margin: 2px;
+    color: #ffff1f;
+    opacity: 0.5;
+    font-size: 1vw;
+}
