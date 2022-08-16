@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<div class="body">
+    <h1 class="title">Архив метеослужбы</h1>
+    <div class="content">
+        <div class="buttons">
+            <button id="0" class="button">Температура</button>
+            <button id="1" class="button">Осадки</button>
+        </div>
+        <div class="chart-container">
+            <div class="select-group">
+                <div class="select">
+                    <label id="since-label" for="since-input">1881</label>
+                    <input id="since-input" class="input" type="range" min="1881" max="2006" value="1881" />
+                </div>
+                <div class="select">
+                    <label id="to-label" for="to-input">2006</label>
+                    <input id="to-input" class="input" type="range" min="1881" max="2006" value="2006" />
+                </div>
+            </div>
+            <div id="chart" class="chart" style="height: 300px; width: 100%;"></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
